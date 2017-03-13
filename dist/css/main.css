@@ -22,14 +22,14 @@ h3 {
 }
 
 img {
-	outline-width: 0;
 	vertical-align: bottom
 }
 
 a,
-a:hover {
-	outline-style: none;
-	color: #fff;
+a:link,
+a:hover,
+a:visited {
+	color: #FFFFFF;
 	text-decoration: none
 }
 
@@ -95,7 +95,6 @@ a:hover {
 .banner .banner_top .content {
 	color: #fff;
 	width: 900px;
-	height: 210px;
 	text-align: center;
 	position: absolute;
 	top: 50%;
@@ -107,7 +106,6 @@ a:hover {
 	-webkit-animation: textMove 1s ease-in-out;
 	-moz-animation: textMove 1s ease-in-out;
 	-o-animation: textMove 1s ease-in-out;
-	
 }
 
 .banner_top .content h3 {
@@ -264,7 +262,7 @@ a:hover {
 
 .touch {
 	height: 370px;
-	background: url(../img/touch.jpg) 50% no-repeat;
+	background: url(../img/touch.jpg) center center no-repeat;
 	background-size: cover
 }
 
