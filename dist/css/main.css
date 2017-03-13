@@ -75,6 +75,13 @@ a:hover {
 	background-color: #4d73b2
 }
 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+	color: #000;
+	background-color: #002356;
+}
+
 .banner .banner_top {
 	position: relative;
 	font-size: 0
